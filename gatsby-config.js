@@ -5,6 +5,20 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `My Blog`,
+    description: `A blog about technology, soccer and trips`,
+    author: `@wescleyfontes`
+  },
+  plugins: [
+    {
+      resolve:`gatsby-source-filesystem`,
+      options:{
+        name:`images`,
+        path:`${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`
+  ],
 }
