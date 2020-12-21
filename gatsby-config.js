@@ -7,10 +7,11 @@
 module.exports = {
   siteMetadata: {
     title: `My Blog`,
-    description: `A blog about technology, soccer and trips`,
+    description: `A blog about technology and trips`,
     author: `@wescleyfontes`
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
     {
       resolve:`gatsby-source-filesystem`,
       options:{
