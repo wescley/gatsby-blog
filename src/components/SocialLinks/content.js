@@ -13,7 +13,7 @@ const links = [
   },
   {
     label: "Instagram",
-    url: `https://www.instagram.com/wescleyfontes}`,
+    url: `https://www.instagram.com/wescleyfontes`,
   },
 ]
 
